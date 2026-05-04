@@ -1,17 +1,57 @@
+:root {
+    --radius: 0.25rem;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
-    color: black;
+    background-color: #1d2021;
+    color: #ebdbb2;
 }
 
 h1,
-h2,
-h3 {
+h2 {
+    color: #689d6a;
+    margin: 0;
     font-family: "Linux Libertine", "Georgia", "Times", "Source Serif 4", serif;
 }
 
 .main-frame {
-    max-width: 1280px;
+    max-width: 42rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+aside {
+    float: right;
+    width: 36.5%;
+    border-radius: var(--radius);
+    padding: 0.4em;
+    background-color: #282828;
+    border: 1px #3c3836 solid;
+}
+
+aside p {
+    margin: 0;
+}
+
+aside a:link {
+    color: #458588;
+}
+
+aside a:visited {
+    color: #b16286;
+}
+
+aside img {
+    width: 100%;
+}
+
+.aside__frame {
+    border-radius: var(--radius);
+}
+
+.aside__title {
+    background-color: #3c3836;
+    border-radius: var(--radius) var(--radius) 0 0;
+    padding: 0.12em;
 }
