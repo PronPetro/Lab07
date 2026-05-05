@@ -15,10 +15,37 @@ h2 {
     font-family: "Linux Libertine", "Georgia", "Times", "Source Serif 4", serif;
 }
 
+dt {
+    margin-top: .8em;
+}
+
 .main-frame {
     max-width: 42rem;
     margin-left: auto;
     margin-right: auto;
+}
+
+.uni__main-frame {
+    background-color: #1d2021;
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.uni__main-frame li {
+    background-color: #ffb700;
+    color: white;
+    padding: 0.3em;
+    margin-top: 0.3em;
+    border-radius: 0.3rem;
+}
+
+.uni__main-frame li::before {
+    color: #ffb700;
+}
+
+.uni {
+    background-color: #1c1c1d;
 }
 
 aside {
