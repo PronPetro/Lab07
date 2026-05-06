@@ -16,7 +16,7 @@ h2 {
 }
 
 dt {
-    margin-top: .8em;
+    margin-top: 0.8em;
 }
 
 .main-frame {
@@ -25,19 +25,22 @@ dt {
     margin-right: auto;
 }
 
+.uni__main-frame h1 {
+    color: #ffee97;
+}
+
 .uni__main-frame {
-    background-color: #1d2021;
     max-width: 42rem;
     margin-left: auto;
     margin-right: auto;
 }
 
 .uni__main-frame li {
-    background-color: #ffb700;
-    color: white;
-    padding: 0.3em;
+    background-color: #34343c;
+    color: #ffffff;
+    padding: 0.5em;
     margin-top: 0.3em;
-    border-radius: var(--radius);
+    border-radius: 0.5rem;
 }
 
 .uni__main-frame li::before {
@@ -45,7 +48,7 @@ dt {
 }
 
 .uni {
-    background-color: #1c1c1d;
+    background-color: #212226;
 }
 
 aside {
